@@ -15,7 +15,7 @@ var connection = mysql.createConnection({
 app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
-    res.render('pages/home');
+    res.render('pages/index');
 });
 
 // Display all product
